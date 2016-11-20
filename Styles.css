@@ -1,0 +1,111 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+
+#top{
+	position: relative;
+	height: 980px;
+	background-image: url(resources/home/bg.png);
+	background-size: 100%;
+}
+
+.navbar-right{
+		margin-top: 15px;
+}
+.navbar-right li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+#top .list-inline>li{
+	padding-left: 100px;
+}
+
+.navbar-right li a:hover{
+	background-color: transparent;
+}
+
+#access{
+	background-color: #83C881;
+	padding: 10px 15px;
+	border-radius: 100px;
+}
+
+.relem{
+	position: absolute;
+}
+
+#kraft{
+	bottom: -199px;
+    left: -6px;
+    height: 480px;
+    width: 425px;
+}
+
+#pens{
+	bottom: -100px;
+    right: 65px;
+    width: 320px;
+    height: 280px;
+}
+
+#services{
+		margin-top: 70px;
+}
+
+.box{
+	width: 570px;
+	height: 240px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+#services .container:nth-child(3){
+	margin-bottom: 65px;
+}
+
+.my_string{
+	background-color: black;
+    width: 46px;
+    height: 3px;
+    margin: 40px auto 65px auto;
+}
+
+.my_string2{
+	background-color: black;
+    width: 31px;
+    height: 2px;
+}
+
+#about{
+	height: 1140px;
+	background: url(resources/ipad.png) no-repeat;
+}
+
+#about h3{
+	margin: 0;
+	padding-top: 85px
+}
+#about .about_us1{
+	margin: 140px 0 75px 0;
+}
+
+#about p{
+	margin-bottom: 75px;
+}
+
+#contact{
+	height: 280px;
+	background-color: #83C881;
+}
+
+#contact h4{
+	padding: 60px 0 90px 0;
+}
+
+#contact h4:before{
+ content: '';
+}
