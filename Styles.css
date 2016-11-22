@@ -2,6 +2,8 @@
 body{
 	padding: 0;
 	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
 }
 
 
@@ -11,7 +13,8 @@ body{
 	position: relative;
 	height: 980px;
 	background-image: url(resources/home/bg.png);
-	background-size: 100%;
+	background-position: center center;
+    background-size: cover;
 }
 
 #top h1{
@@ -82,12 +85,12 @@ body{
 
 #bottom-mouse{
     right: 0;
-    bottom: 318px;
+    bottom: 280px;
 }
 
 #bottom-keyboard{
 left: 0;
-    bottom: -20px;
+    bottom: -5px;
     z-index: -2;
 }
 
@@ -204,6 +207,18 @@ left: 0;
 	padding-top: 40px;
 }
 
+#order:before{
+	    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #EEEEEE;
+    content: "";
+    display: block;
+    z-index: -5;
+}
+
 #order .form{
 	width: 65%;
 	background-color: white;
@@ -264,4 +279,13 @@ footer{
 footer p{
 	 line-height: 75px;
 	 padding-left: 30px;
+}
+
+.back_top{
+	position: absolute;
+	background-color: white;
+	padding: 15px;
+	border-radius: 100px;
+	right: 2.5em;
+	bottom: 3.1em;
 }
