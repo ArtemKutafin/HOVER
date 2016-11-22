@@ -224,11 +224,12 @@
 </section>
 <footer>
 	<p>	<strong>&#169; 2016 Hover</strong></p>
+	<a href="#top" class="back_top"><img src="resources/back_top.png" alt="arrow"></a>
 </footer>
 <script>
 	 
 $(document).ready(function(){
-	$("#top").on("click","a", function (event) {
+	$("#top, footer").on("click","a", function (event) {
 		//отменяем стандартную обработку нажатия по ссылке
 		event.preventDefault();
 
