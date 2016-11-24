@@ -2,8 +2,6 @@
 body{
 	padding: 0;
 	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 400;
 }
 
 
@@ -28,6 +26,8 @@ body{
 	text-transform: uppercase;
 	color: black;
 	font-size: 17px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
 }
 
 #top .list-inline>li{
@@ -97,6 +97,27 @@ left: 0;
 
 /*--------------------СЕРВИСЫ---------------------*/
 
+.title{
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.box_title{
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.box_description{
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+}
+
 #services{
 		margin-top: 70px;
 }
@@ -135,7 +156,7 @@ left: 0;
 	background-color: #898989;
     width: 46px;
     height: 3px;
-    margin: 40px auto 45px auto;
+    margin: 25px auto 45px auto;
 }
 
 
@@ -163,6 +184,9 @@ left: 0;
 
 #about p{
 	margin-bottom: 75px;
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
 }
 
 
@@ -172,6 +196,8 @@ left: 0;
 	position: relative;
 	height: 280px;
 	background-color: #83C881;
+	font-size: 22px;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -207,6 +233,15 @@ left: 0;
 	padding-top: 40px;
 }
 
+#order h3{
+	padding-top: 50px;
+	margin: 0;
+}
+
+#order .bottom_string{
+	margin: 25px auto 0 auto;
+}
+
 #order:before{
 	    bottom: 0;
     left: 0;
@@ -220,6 +255,8 @@ left: 0;
 }
 
 #order .form{
+	margin: 0 auto;
+	padding-bottom: 25px;
 	width: 65%;
 	background-color: white;
 	border-radius: 15px;
@@ -228,26 +265,39 @@ left: 0;
 box-shadow: 0px 0px 60px -12px rgba(0,0,0,0.75);
 }
 
+.form_body{
+	padding: 0 75px;
+}
+
 .form input{
-	border: 2px solid #83c881;
+	border: 1px solid #83c881;
 	border-radius: 100px;
 	height: 55px;
 }
 
 .form textarea{
-	border: 2px solid #83c881;
+	border: 1px solid #83c881;
 	border-radius: 20px;
 	resize: none;
 }
 
 .form select{
-	border: 2px solid #83c881;
+	font-size: 20px;
+	border: 1px solid #83c881;
 	border-radius: 100px;
 	height: 55px;
 }
 
 .form .form-group{
 	padding-top: 25px;
+	margin-bottom: 0;
+}
+
+.form label{
+		font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	padding-left: 20px;
 }
 
 #order button{
@@ -258,12 +308,18 @@ box-shadow: 0px 0px 60px -12px rgba(0,0,0,0.75);
 	border: none;
 	color: white;
 	margin-top: 35px;
+	font-size: 17px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
 
 }
 
 #order .after_submit{
-	margin: 25px 0 25px 0;
+	margin: 25px 0 0px 0;
 	color: gray;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
 }
 
 /*--------------------ФУТЕР---------------------*/
@@ -274,6 +330,10 @@ footer{
 	background-color: white;
 	color: black;
 	font-size: 16px;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+
 }
 
 footer p{
