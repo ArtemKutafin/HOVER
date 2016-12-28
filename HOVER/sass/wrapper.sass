@@ -1,0 +1,14 @@
+#wrapper
+	background: url(resources/ipad.png) no-repeat left top, url(resources/bottom/bottom-circle.png) no-repeat bottom left, url(resources/bottom/mouse.png) no-repeat right 1800px, url(resources/bottom/right-circle.png) no-repeat right 980px, url(resources/bottom/keyboard.png) no-repeat left bottom, linear-gradient(to bottom, rgb(255,255,255) 0%,rgb(255,255,255) 65%,rgb(238,238,238) 100%)
+	background-size: auto, auto, auto, auto, auto
+	padding: 175px 0 35px 0
+
+@media (max-width: 761px)
+	#wrapper
+		background: url(resources/bottom/bottom-circle.png) no-repeat bottom left, url(resources/bottom/mouse.png) no-repeat right 1800px, url(resources/bottom/right-circle.png) no-repeat right 980px, linear-gradient(to bottom, rgb(255,255,255) 0%,rgb(255,255,255) 65%,rgb(238,238,238) 100%)
+		background-size: auto, auto, contain, contain
+		padding: 105px 0 35px 0
+
+@import 'about.sass'
+@import 'contact.sass'
+@import 'order.sass'
