@@ -1,0 +1,67 @@
+#order
+	font-family: 'Ubuntu', sans-serif
+	font-size: 20px
+	font-weight: 400
+	display: none
+	.wrapper_order
+		width: (970px / 1430px)*100%
+		margin: 40px auto
+		.form-body
+			-webkit-box-shadow: 0px 10px 48px -6px rgba(0,0,0,0.75)
+			-moz-box-shadow: 0px 10px 48px -6px rgba(0,0,0,0.75)
+			box-shadow: 0px 10px 48px -6px rgba(0,0,0,0.75)
+			padding: 45px 0 20px 0
+			border-radius: 15px
+			background-color: white
+			.my_string
+				background-color: #898989
+				width: 46px
+				height: 3px
+				margin: 30px auto 0 auto
+			form
+				input, select
+					border: 1px solid #83c881
+					border-radius: 55px
+					resize: none
+					font-weight: 300
+					font-size: 18px
+					height: 55px
+					-webkit-appearance: none
+				textarea
+					border: 1px solid #83c881
+					border-radius: 15px
+					resize: none
+					font-weight: 300
+					font-size: 18px
+				.form-group
+					margin-top: 40px
+					label
+						margin-left: 5%
+
+			button
+				background-color: #83c881
+				text-transform: uppercase
+				padding: 15px 25px
+				border-radius: 80px
+				border: none
+				color: white
+				margin: 35px 0 20px 0
+				font-size: 17px
+				font-weight: 300
+				&:hover
+					color: #f25202
+					background-color: lighten(#83C881, 20%)
+				&:focus
+					background-color: lighten(#83C881, 20%)
+			.after_submit
+				font-size: 12px
+				font-weight: 300
+				color: #afafaf
+
+@media (max-width: 992px)
+	#order
+		.wrapper_order
+			width: 100%
+			.form-body
+				width: 98%
+				margin: 0 auto
